@@ -5,106 +5,13 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>HWL</title>
+    <title>docs</title>
 
+    <!-- stylesheets -->
+    <link rel="stylesheet" href="{{ asset('css/app.css') }}">
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;600&display=swap" rel="stylesheet">
 
-    <!-- Styles -->
-    <style>
-        * {
-            box-sizing: border-box;
-            padding: 0;
-            margin: 0;
-        }
-
-        li {
-            list-style-type: none;
-        }
-
-        details {
-            border: 2px solid;
-            margin-bottom: 10px;
-        }
-
-        summary {
-            background-color: lightgray;
-            padding: 12px;
-        }
-
-        .sum-title::before {
-            content: '#';
-            padding-right: 3px;
-            color: rgb(242, 128, 132);
-            font-size: 1.1em;
-            opacity: .9;
-        }
-
-        html,
-        body {
-            background-color: #fff;
-            color: #636b6f;
-            font-family: 'Nunito', sans-serif;
-            font-weight: 200;
-            height: 100vh;
-            margin: 0;
-        }
-
-        .full-height {
-            height: 100vh;
-        }
-
-        .flex-center {
-            align-items: center;
-            display: flex;
-            justify-content: center;
-        }
-
-        .position-ref {
-            position: relative;
-        }
-
-        .top-right {
-            position: absolute;
-            right: 10px;
-            top: 18px;
-        }
-
-        .content {
-            text-align: center;
-        }
-
-        .title {
-            font-size: 84px;
-        }
-
-        .links>a {
-            color: #636b6f;
-            padding: 0 25px;
-            font-size: 13px;
-            font-weight: 600;
-            letter-spacing: .1rem;
-            text-decoration: none;
-            text-transform: uppercase;
-        }
-
-        .m-b-md {
-            margin-bottom: 30px;
-            margin-top: 30px;
-            font-weight: bold;
-        }
-
-        .m-b-md>span {
-            font-weight: 500;
-            font-size: 85%;
-            display: block;
-        }
-
-        .user {
-            text-transform: capitalize;
-            font-weight: 900;
-        }
-    </style>
 </head>
 
 <body>
@@ -122,7 +29,7 @@
 
                 <details>
                     <summary>
-                    <span class="sum-title">Laravel Philosophy</span>
+                        <span class="sum-title">Laravel Philosophy</span>
                     </summary>
                     Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable, creative experience to be truly fulfilling. Laravel attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as authentication, routing, sessions, and caching.
 
@@ -135,12 +42,11 @@
 
                 <details>
                     <summary><span class="sum-title">Install</span>
-                </summary>
-                Run <code>curl -s "https://laravel.build/example-app" | bash</code> and some other stuff.
+                    </summary>
+                    Run <code>curl -s "https://laravel.build/example-app" | bash</code> and some other stuff.
                 </details>
             </li>
         </ul>
-    </div>
     </div>
 </body>
 
